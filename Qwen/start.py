@@ -15,7 +15,8 @@ import logging
 logging.basicConfig(level=logging.ERROR)
 
 # 模型名称
-model_name = "Qwen/Qwen2.5-VL-3B-Instruct"
+# model_name = "Qwen/Qwen2.5-VL-3B-Instruct"
+model_name = "Qwen/Qwen2.5-VL-7B-Instruct"
 
 print("Model:", model_name)
 print("torch version:", torch.__version__)
