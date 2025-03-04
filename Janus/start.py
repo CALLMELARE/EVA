@@ -64,7 +64,7 @@ def predict():
         )
 
         answer = tokenizer.decode(outputs[0].cpu().tolist(), skip_special_tokens=True)
-        print(f"{prepare_inputs['sft_format'][0]}", answer)
+        # print(f"{prepare_inputs['sft_format'][0]}", answer)
         return jsonify({"result": answer})
     except Exception as e:
         logging.error("Error processing request: %s", str(e), exc_info=True)
