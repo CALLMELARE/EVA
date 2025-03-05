@@ -5,7 +5,6 @@ from flask import Flask, request, jsonify
 from PIL import Image
 from transformers import (
     Qwen2_5_VLForConditionalGeneration,
-    AutoTokenizer,
     AutoProcessor,
 )
 from qwen_vl_utils import process_vision_info
