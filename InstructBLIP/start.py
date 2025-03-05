@@ -52,7 +52,7 @@ def predict():
             **inputs,
             do_sample=False,
             num_beams=5,
-            max_length=256,
+            max_length=512,
             min_length=1,
             top_p=0.9,
             repetition_penalty=1.5,
